@@ -23,8 +23,10 @@ function appendData(data) {
       var li = document.createElement("li");
       li.innerHTML = 
       `
-      <h1> ${item.volumeInfo.title} </h1> <br> 
+      <h1> ${item.volumeInfo.title} </h1>
+      <h2> ${item.volumeInfo.subtitle}  <br> <br> 
       <img src="${item.volumeInfo.imageLinks.thumbnail}"><br> 
+      <p>Publish date: (${item.volumeInfo.publishedDate})</p>
       <h3>Author:</h3>${item.volumeInfo.authors}<br> 
       <p><strong>Description:</strong></p> ${item.volumeInfo.description}<br><br>
       `
