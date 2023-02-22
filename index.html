@@ -2,18 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book API</title>
   </head>
   <body>
 
-    <div class="first-page-container">
+    <div class="input-container">
       <h1>Find a book</h1>
-      <input type="text" placeholder="Search for a book" id="bookFinder"> <button type="submit" id="submit">Search</button>
+      <input type="text" placeholder="Search for a book" id="search-book"> 
+      <button id="search" type="submit">Search</button>
     </div>
-    
-    <div id="books"></div>
-    <script type="module" src="/main.js"></script>
+
+    <ul id="myData"></ul>
+    <script type="module" src="/main.js" defer></script>
   </body>
 </html>
