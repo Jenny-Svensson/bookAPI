@@ -23,7 +23,7 @@ function appendData(data) {
       var li = document.createElement("li");
       li.innerHTML = 
       `
-      <h1>Title:</h1> ${item.volumeInfo.title}<br> 
+      <h1> ${item.volumeInfo.title} </h1> <br> 
       <img src="${item.volumeInfo.imageLinks.thumbnail}"><br> 
       <h3>Author:</h3>${item.volumeInfo.authors}<br> 
       <p><strong>Description:</strong></p> ${item.volumeInfo.description}<br><br>
