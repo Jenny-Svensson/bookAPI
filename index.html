@@ -2,12 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Bok API</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <section class="first-page-container">
+      <div class="input-container">
+        <h1 class="first-page-title">Book finder	&#x1F50E;</h1>
+        <label>
+        <input type="text" placeholder="Search for a book..." id="search-book"> 
+        <button id="search" type="submit">Search</button>
+        </label>
+      </div>
+    </section>
+
+    <ul id="myData"></ul>
+    <script type="module" src="/main.js" defer></script>
   </body>
 </html>

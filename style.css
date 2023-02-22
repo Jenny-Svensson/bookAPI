@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ada2987e;
+    font-family: 'Inconsolata', monospace;
+}
+
+.first-page-container {
+    background-image: url("/gulfer-ergin-LUGuCtvlk1Q-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-page-title {
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myData {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: max-content;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
